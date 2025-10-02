@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(31, 29, 29);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+* {
+    margin: 0;
+}
+.contentdownloads {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 300px 10px 300px;
+    color: white;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: black;
+    padding: 30px 0px 30px 0px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.botoes {
+    background-color: rgb(24, 16, 129);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.botoes:hover {
+    background-color: rgb(26, 27, 82);
+}
+.h1downloads {
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.adownloads {
+    color: rgb(99, 84, 235);
+    text-decoration: underline;
+    font-weight: bold;
+}
+.divdownloads {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+.logoslojas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 30px;
+}
+.lojaslogodownloads {
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.spanp1 {
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    
+}
+.divlojas {
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+}
+.logos {
+    max-width: 30px;
+    width: 100%;
+}
+.spanlojas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
